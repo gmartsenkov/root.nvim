@@ -75,7 +75,9 @@ mod tests {
             Test {
                 file: "./tests/fixtures/dev/app/web.rb",
                 expected: Some("./tests/fixtures/dev"),
-                config: Config { patterns: vec!["app".to_string()] }
+                config: Config {
+                    patterns: vec!["app".to_string()],
+                },
             },
         ];
 
