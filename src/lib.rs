@@ -68,6 +68,11 @@ mod tests {
                 config: config.clone(),
             },
             Test {
+                file: "./tests/fixtures/dev/lib/endpoints/non/existant/file.rb",
+                expected: Some("./tests/fixtures/dev/lib"),
+                config: config.clone(),
+            },
+            Test {
                 file: "./tests/fixtures/dev/app/web.rb",
                 expected: None,
                 config: config.clone(),
